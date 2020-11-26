@@ -1,0 +1,182 @@
+@import url(https://allfont.ru/allfont.css?fonts=droid-sans);
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    
+}
+a { z-index: 30; 
+    text-decoration: none;
+    color: #1DA1F2;
+
+} 
+body{
+    font-family: 'Droid Sans', arial;
+    color: #373A3C;
+    background-color: #1b2836;
+}
+#logo{
+    width: 10%;
+    position: absolute;
+    left:5%;
+}
+.navbaфыr{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    height:60px;
+    background-color: #253341;
+    position: absolute;
+    left: 5%;
+    top: 90px;
+    border: 2px solid #1DA1F2;
+    border-radius: 6px;
+}
+.container-my{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 92%;
+}
+.navitems{
+    display: flex;
+    justify-content: space-around;
+    color: #1DA1F2;
+    font-size: 20px;
+    width: 30%;
+    margin-top: 15px;
+}
+.finder{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    position: relative;
+    
+}
+.search{
+    width:20%;
+    height: 30px;
+    margin-left: 70%;
+    margin-top: 10px;
+    background-color: #3e546b;
+    border-radius: 6px;
+
+}
+.button{
+    margin-top: 10px;
+    background-color: #3e546b;
+    margin-left: 3%;
+    height: 30px;
+    color: rgb(181, 207, 255);
+    border-radius: 6px;
+}
+.sec{
+    position: relative;
+    top: 10px;
+}
+.sec2{
+    position: relative;
+    top: 650px;
+}
+.bigimg{
+    display: flex;
+    width: 91%;
+    height: 600px;
+    position: absolute;
+    justify-content: space-around;
+    left: 4.5%;
+    top: 10px;
+}
+.bigitem1{
+    background-image: url(../images/crysis.jpg);
+    background-size: cover;
+    width: 59%;
+    border-radius: 6px;
+}
+.bigitem2{
+    background-image: url(../images/crysis2.jpg);
+    background-size: cover;
+    width: 39%;
+    border-radius: 6px;
+}
+.cardcontainer{
+    position: relative;
+    display: flex;
+    left: 5%;
+    width: 91%;
+    height: 490px;
+    justify-content: space-around;
+}
+.carditem{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 25%;
+}
+.carditemimg{
+    width: 95%;
+    background-position:center;
+    height: 300px;
+    background-image: url(../images/game.webp);
+    background-size: cover;
+}
+.cardtext{
+    padding:5px;
+    min-height: 150px;
+    width: 95%;
+    background-color: #8EADCC;
+    text-align: center;
+}
+.regbar{
+    color: #1DA1F2;
+    position: absolute;
+    left:  40% ;
+    top:  20% ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    height: 50%;
+}
+label{
+    align: left;
+}
+.TTF{
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.TTF2{
+    font-size: 12px;
+    color: white;
+    text-align: left;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#input__mail{
+    height: 7%;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    background-color: #8EADCC;
+}
+#input__pass{
+    height: 7%;
+    width: 100%;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    background-color: #8EADCC;
+}
+#input__btn{
+    color: white;
+    height: 7%;
+    width: 20%;
+    margin-top:5px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    background-color: #8EADCC;
+}
