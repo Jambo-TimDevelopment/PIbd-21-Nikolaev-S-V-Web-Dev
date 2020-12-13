@@ -33,16 +33,17 @@
           </nav>
     </div>
 
-        <div class="regbar">
+        <form class="regbar">
             <div class="hh">Регистрация</div>
             <input type="text" placeholder="E-mail" id="input__mail">
-            <input type="text" placeholder="Пароль" id="input__pass">
-            <input type="text" placeholder="Повторите пароль" id="input__pass">
+            <input type="text" placeholder="Пароль" class="input__pass1" id="input__pass">
+            <input type="text" placeholder="Повторите пароль" class="input__pass2" id="input__pass">
             <div class = "TTF"><input type="radio" id="contactChoice1"
             name="contact" value="email">
            <label for="contactChoice1">Любитель шутеров</label></div>
        
-           <div class = "TTF"><input type="radio" id="contactChoice2"
+           <div class = "TTF">
+            <input type="radio" id="contactChoice2"
             name="contact" value="phone">
            <label for="contactChoice2">Любитель гонок</label></div>
        
@@ -52,11 +53,13 @@
            <div class = "TTF2"><input type="checkbox" id="contactChoice4"
             name="contact" value="mail">
            <label for="contactChoice4">Получать уведомления</label></div>
-           <input type="button" value="Регистрация" id ="input__btn">
+           <input type="submit"  value="Регистрация" id ="input__btn">
            <a href = "sign.html"><p>Войти</p></a>
-        </div>
+        </form>
     </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="/scripts/script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
